@@ -94,6 +94,38 @@ sudo ./install_geographiclib_datasets.sh
 
     ```bash
     cd ~/PX4-Vision-Based-Formation-Control-Simulator
+    mv platforms/nuttx/NuttX/nuttx/.gitim platforms/nuttx/NuttX/nuttx/.git 
+    mv platforms/nuttx/NuttX/apps/.gitim platforms/nuttx/NuttX/apps/.git 
+    mv Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.gitim Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker/.git 
+    mv Tools/sitl_gazebo/external/OpticalFlow/.gitim Tools/sitl_gazebo/external/OpticalFlow/.git 
+    mv Tools/sitl_gazebo/.gitim Tools/sitl_gazebo/.git 
+    mv Tools/simulation-ignition/.gitim Tools/simulation-ignition/.git 
+    mv Tools/jMAVSim/jMAVlib/.gitim Tools/jMAVSim/jMAVlib/.git 
+    mv Tools/jMAVSim/.gitim Tools/jMAVSim/.git 
+    mv Tools/flightgear_bridge/models/TF-R1/.gitim Tools/flightgear_bridge/models/TF-R1/.git 
+    mv Tools/flightgear_bridge/models/TF-G2/.gitim Tools/flightgear_bridge/models/TF-G2/.git 
+    mv Tools/flightgear_bridge/models/TF-G1/.gitim Tools/flightgear_bridge/models/TF-G1/.git 
+    mv Tools/flightgear_bridge/models/Rascal/.gitim Tools/flightgear_bridge/models/Rascal/.git 
+    mv Tools/flightgear_bridge/.gitim Tools/flightgear_bridge/.git 
+    mv Tools/jsbsim_bridge/models/ATI-Resolution/.gitim Tools/jsbsim_bridge/models/ATI-Resolution/.git 
+    mv Tools/jsbsim_bridge/models/Rascal/.gitim Tools/jsbsim_bridge/models/Rascal/.git 
+    mv Tools/jsbsim_bridge/.gitim Tools/jsbsim_bridge/.git 
+    mv src/modules/micrortps_bridge/micro-CDR/.gitim src/modules/micrortps_bridge/micro-CDR/.git 
+    mv src/modules/mavlink/mavlink/.gitim src/modules/mavlink/mavlink/.git 
+    mv src/modules/mavlink/mavlink/pymavlink/.gitim src/modules/mavlink/mavlink/pymavlink/.git 
+    mv src/modules/microdds_client/Micro-XRCE-DDS-Client/.gitim src/modules/microdds_client/Micro-XRCE-DDS-Client/.git 
+    mv src/lib/events/libevents/.gitim src/lib/events/libevents/.git 
+    mv src/lib/events/libevents/libs/cpp/parse/nlohmann_json/.gitim src/lib/events/libevents/libs/cpp/parse/nlohmann_json/.git 
+    mv src/lib/crypto/libtommath/.gitim src/lib/crypto/libtommath/.git 
+    mv src/lib/crypto/monocypher/.gitim src/lib/crypto/monocypher/.git 
+    mv src/lib/crypto/libtomcrypt/.gitim src/lib/crypto/libtomcrypt/.git 
+    mv src/drivers/gps/devices/.gitim src/drivers/gps/devices/.git 
+    mv src/drivers/uavcan/libuavcan/dsdl/.gitim src/drivers/uavcan/libuavcan/dsdl/.git 
+    mv src/drivers/uavcan/libuavcan/.gitim src/drivers/uavcan/libuavcan/.git 
+    mv src/drivers/uavcan/libuavcan/libuavcan/dsdl_compiler/pyuavcan/.gitim src/drivers/uavcan/libuavcan/libuavcan/dsdl_compiler/pyuavcan/.git 
+    mv src/drivers/uavcan_v1/legacy_data_types/.gitim src/drivers/uavcan_v1/legacy_data_types/.git 
+    mv src/drivers/uavcan_v1/libcanard/.gitim src/drivers/uavcan_v1/libcanard/.git 
+    mv src/drivers/uavcan_v1/public_regulated_data_types/.gitim src/drivers/uavcan_v1/public_regulated_data_types/.git 
     DONT_RUN=1 make px4_sitl_default gazebo
     ```
 
